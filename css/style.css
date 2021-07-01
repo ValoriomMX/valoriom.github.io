@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'VCR OSD Mono';
+	src: url('../fonts/VCR_OSD_MONO_1.001.ttf');
+}
+
+body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=42992);}
+
+
+body {
+	font-family: 'VCR OSD Mono', serif !important; 
+	color: white;
+	font-style: italic;
+    background: black;
+    }
+
+body, div
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#center {               
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+
+
+A:link {
+	color: #FFFFFF; text-decoration: none
+}
+A:visited {
+	color: #FFFFFF; text-decoration: none
+}
+A:hover {
+	text-shadow: 0pt 0pt 0.3em white, 0pt 0pt 0.3em white;
+	color: white; text-decoration: none
+}
+A:active {
+	color: #FFFFFF; text-decoration: none
+}
+
+#membersList {
+  text-align: center;
+  overflow: hidden;
+  height: 70px;
+  width: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2px;
+}
+
+#membersList:hover {
+  padding-right: 2px;
+  overflow: auto;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 2px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+#screen {
+    padding: 15px 30px;
+    border: 2px solid white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-opacity: 0.65;
+    -khtml-opacity: 0.65;
+    opacity: 0.65;
+    background-color: #000000;
+}
